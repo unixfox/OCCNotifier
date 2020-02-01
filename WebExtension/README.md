@@ -1,0 +1,21 @@
+# OCCNotifier
+Get alerts when your favorite maps are playing on the Minecraft server Overcast Community.
+
+# Install it on your favorite browser
+* Firefox: https://addons.mozilla.org/en-US/firefox/addon/stratus-notifier/
+* Chrome: https://chrome.google.com/webstore/detail/abdkhbngkfieaniccgofpbbpfjdjcide
+* Opera: https://addons.opera.com/fr/extensions/details/mmfopnaabangnaciegpolehiilpgejbb/
+
+# Preview
+![](https://i.imgur.com/lPHGCKK.png)
+![](https://i.imgur.com/utL8ZOk.jpg)
+
+# Changelog
+### 0.0.4
+* Changed the API backend for the Overcast Community
+### 0.0.3
+* Update Bootstrap version
+### 0.0.2
+* Rework for the Minecraft server Stratus Network by unixfox.
+### 0.0.1 
+* Initial release by [RastaLulz](https://github.com/joshfoskett).

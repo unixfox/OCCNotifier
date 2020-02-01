@@ -1,0 +1,34 @@
+{
+  "name": "occnotifier-api",
+  "version": "0.1.0",
+  "description": "API for OCCNotifier WebExtension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unixfox/OCCNotifier.git"
+  },
+  "author": "unixfox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unixfox/OCCNotifier/issues"
+  },
+  "homepage": "https://github.com/unixfox/OCCNotifier#readme",
+  "dependencies": {
+    "@keyv/redis": "^2.1.0",
+    "@koa/cors": "^2.2.3",
+    "got": "^10.4.0",
+    "ioredis": "^4.14.1",
+    "koa": "^2.11.0",
+    "koa-cache-lite": "^3.8.8",
+    "koa-router": "^8.0.6",
+    "mcproto": "^0.7.12"
+  },
+  "type": "module",
+  "devDependencies": {
+    "koa-logger": "^3.2.1"
+  }
+}
