@@ -18,11 +18,11 @@ router.get("/", async (ctx, next) => {
     ctx.redirect('https://github.com/unixfox/OCCNotifier');
 });
 
-router.get("/v1/maps", async (ctx, next) => {
+router.get("/api/v1/maps", async (ctx, next) => {
     ctx.body = await fetchMaps();
 });
 
-router.get("/v1/servers", async (ctx, next) => {
+router.get("/api/v1/servers", async (ctx, next) => {
 
     try {
         const matchInfo = await getCurrentMatchInfo();

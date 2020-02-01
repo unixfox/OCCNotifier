@@ -1,4 +1,4 @@
-var baseUrl = 'https://occnotifier.unixfox.eu/v1/';
+var baseUrl = 'https://occnotifier.unixfox.eu/api/v1/';
 
 var mapsJson, serversJson;
 

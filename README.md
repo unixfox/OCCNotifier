@@ -2,13 +2,12 @@
 Get alerts when your favorite maps are playing on the Minecraft server Overcast Community.
 
 # Install it on your favorite browser
-* Firefox: https://addons.mozilla.org/en-US/firefox/addon/stratus-notifier/
-* Chrome: https://chrome.google.com/webstore/detail/abdkhbngkfieaniccgofpbbpfjdjcide
-* Opera: https://addons.opera.com/fr/extensions/details/mmfopnaabangnaciegpolehiilpgejbb/
+* Firefox: https://addons.mozilla.org/en-US/firefox/addon/occnotifier-notifier/
+* Chrome: https://chrome.google.com/webstore/detail/enfdbjdkmgpfpnbnhgbhdihhoaielfga
+* Opera: https://addons.opera.com/en/extensions/details/overcast-community-notifier/
 
 # Preview
-![](https://i.imgur.com/lPHGCKK.png)
-![](https://i.imgur.com/utL8ZOk.jpg)
+![](https://i.imgur.com/Kymq6Tr.png)
 
 # Changelog
 ### 0.0.4

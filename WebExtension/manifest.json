@@ -1,6 +1,6 @@
 {
   "name": "Overcast Community Notifier",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "Get alerts when your favorite maps are playing on the Minecraft server Overcast Community.",
   "homepage_url": "https://github.com/unixfox/OCCNotifier",
