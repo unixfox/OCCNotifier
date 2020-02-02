@@ -3,6 +3,8 @@
 import Koa from "koa";
 import Router from "koa-router";
 import cache from "koa-cache-lite";
+import conditional from 'koa-conditional-get';
+import etag from 'koa-etag';
 import fetchMaps from "./libs/fetchMaps.js";
 import cors from "@koa/cors";
 import { getCurrentMatchInfo } from "./libs/serverStatus.js";
@@ -12,6 +14,8 @@ const router = new Router({
     sensitive: true,
     strict: true
 });
+app.use(conditional());
+app.use(etag());
 app.use(cors());
 
 router.get("/", async (ctx, next) => {
