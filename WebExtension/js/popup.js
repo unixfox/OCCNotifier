@@ -10,6 +10,12 @@ $(document).ready(function () {
 
 });
 
+$.ajaxSetup({
+	headers: {
+		'Cache-Control': 'max-age=0'
+	}
+});
+
 function pageMapsPlaying() {
 
 	if (isDataReady()) {

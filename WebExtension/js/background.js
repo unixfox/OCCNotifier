@@ -26,6 +26,12 @@ $(document).ready(function () {
 
 });
 
+$.ajaxSetup({
+	headers: {
+		'Cache-Control': 'max-age=0'
+	}
+});
+
 function triggerRefresh() {
 
 	$.getJSON(baseUrl + 'maps', function (data) {

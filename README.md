@@ -10,6 +10,8 @@ Get alerts when your favorite maps are playing on the Minecraft server Overcast 
 ![](https://i.imgur.com/Kymq6Tr.png)
 
 # Changelog
+### 0.0.5
+* Add client caching control
 ### 0.0.4
 * Changed the API backend for the Overcast Community
 ### 0.0.3
