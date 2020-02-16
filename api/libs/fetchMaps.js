@@ -15,7 +15,8 @@ export default async function fetchMaps() {
     let { sha, url, truncated, tree, ...mapsList } = response;
     mapsList.maps = mapsList.maps
         .filter(map => map.type === "tree")
-        .map(({ mode, type, sha, url, ...keepAttrs }) => ({ "name": keepAttrs.path }));
+        .map(({ mode, type, sha, url, ...keepAttrs }) => ({ "name": keepAttrs.path }))
+        .filter(map => !map.name.startsWith("."));
     mapsList.maps.forEach((o, i) => o.id = (i + 1) - 1);
     return (mapsList);
 }
